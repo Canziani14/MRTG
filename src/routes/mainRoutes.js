@@ -12,11 +12,10 @@ router.get ("/", mainController.index)
 
 
 
-router.get ("/corrientes", corrientesController.index )
-
-router.get ("/cordoba", cordobaController.index)
-
-router.get ("/otros", otrosController.index )
 
 
-module.exports = mainRouter; 
+
+
+
+
+module.exports = router;

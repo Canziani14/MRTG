@@ -13,7 +13,6 @@ const bsasController = {
         console.log("un usuario entro al home");
         res.sendFile(path.join(__dirname, "./src/views/mrtg/45.169.104.118_ether1.html"));
     },
-  
 
 
 
